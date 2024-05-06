@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(0, 0, 0);
+    --secondary: #FAE3CF;
+    --alternative: olive;
+    --bgHeaderFooter: #0A0F24;
+    --awesome:orange;
+    --bgCAbout: #28293A;
+    --mainBox-shadow: .2rem .2rem .1rem .2rem rgba(0 0 0);
+    --card-box-shadow:.5vw .5vw 1vw ;
+    --text-shadow:.3rem .3rem .4rem ;
+    --mainBg: rgb(4, 45, 4);
+    --bgImg: linear-gradient(--top-right, var(--awesome));
+}
+
+@property --top-left {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 50%;
+}
+
+@property --top-right {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 50%;
+}
+
+@property --bottem-left {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
+
+@property --bottem-left {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
+
+:is(.navbar, footer) {
+    background-color: var(--bgHeaderFooter);
+}
+/*Nav*/
+:is(.nav-link) {
+    color: var(--secondary);
+}
+/*:is(a) {
+    color: var(--secondary);
+}*/
+/* Navbar*/
+a{
+    transition: all .5s;
+
+    &:hover {
+        transform: scale(1.2);
+        text-decoration: underline;
+       /* box-shadow: .1rem .1rem .2rem var(--secondary);
+        padding-inline: 1rem;*/
+    }
+
+    &:has(img)
+}
+
+img[alt='logo'] {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+/*  grid layout*/
+:is(body) {
+    display: grid;
+    text-align: center;
+}
+/*create three rows*/
+:is(body) {
+    grid-template-rows: auto 
+    minmax(100%, 100dvh) auto;
+}
+
+/*:is(footer){
+    color: #FAE3CF;
+}*/
+/* */
