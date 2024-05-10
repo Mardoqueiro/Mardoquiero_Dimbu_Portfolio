@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+<!-- navbar-expand-lg navbar-light -->
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +21,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" class="active" href="#">Home</a>
           <a class="nav-link" href="#">About</a>
           <a class="nav-link" href="#">Education</a>
           <a class="nav-link" href="#">Skills</a>
@@ -33,29 +34,15 @@
     </div>
   </nav>
 
-
-    <!-- <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <!-- <i class="bx bx-menu" id="menu-icom"></i> -->
-        <!--<nav class="navbar">
-            <a href="#Home"style="--i.1;" class="active">Home</a>
-            <a href="#About"style="--i.2;">About</a>
-            <a href="#Education"style="--i.3;">Education</a>
-            <a href="#Skills"style="--i.4;">Skills</a>
-            <a href="#Work Exprience"style="--i.5;">Work Exprience</a>
-            <a href="#Project"style="--i.6;">Projects</a>
-            <a href="#Testimonial"style="--i.7;">Testimonials</a>
-            <a href="#Contact"style="--i.8;">Contact</a>
-        </nav>
-        <i class="bi bi-list" id="menu-icom"></i>
-    </header> -->
-  
-      <section class="Home">
+    <section class="Home">
       <div class="home-content">
           <h3>Hello, It's Me</h3>
           <h1>Mardoquéiro D. Lukembeladio</h1>
           <h3>And I'm a <span>Full-stack Developer apprentice</span></h3>
           <p>Welcome to my portfolio website! Explore a curated collection of my work, crafted with passion and dedication. From design to development, I invite you to delve into the creative journey that defines my expertise. Feel free to wander, and don't hesitate to reach out with any inquiries or collaboration opportunities. Let's create something amazing together!</p>
+          <div class="home-img">
+            <img src="https://mardoqueiro.github.io/all_images/images/Portfolio.Website.Profile.jpg.png" alt="Profile">
+        </div>
           <div class="social-media">
               <a href="#"style="--i.9;"><i class="bi bi-linkedin"></i></a>
               <a href="#"style="--i.10;"><i class="bi bi-instagram"></i></a>
@@ -64,11 +51,10 @@
           </div>
           <a href="#" class="btn">Download CV</a>
       </div>
-    
-      <div class="home-img">
+      <!-- <div class="home-img">
           <img src="https://mardoqueiro.github.io/all_images/images/Portfolio.Website.Profile.jpg.png" alt="Profile">
-      </div>
-      </section>
+      </div> -->
+    </section>
     
 <!--   ABOUT CONTENT-->
       <section class="About">
@@ -132,9 +118,9 @@
 <!--    SKILL SECTION -->
       <section class="skills" id="skills">
           <h3 class="heading">Skill<span>s</span></h3>
-          <div class="skills-container">  
+        <div class="skills-container">  
           <div class="card" style="width: 18rem;">
-            <img src="https://static-00.iconduck.com/assets.00/html5-icon-505x512-zls0uohx.png" class="card-img-top" alt="...">
+            <img src="https://mardoqueiro.github.io/all_images/images/download.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h3>HTML<span>5</span></h3>
               <p class="card-text">Proficient in HTML5, with a beginner-level expertise.</p>
@@ -142,15 +128,23 @@
           </div>
         
           <div class="card" style="width: 18rem;">
-          <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png" class="card-img-top" alt="...">
+          <img src="https://mardoqueiro.github.io/all_images/images/download (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>CSS<span>3</span></h3>
             <p class="card-text">Proficient in CSS3, with a beginner-level expertise.</p>
           </div>
           </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://mardoqueiro.github.io/all_images/images/0f2aeb671c21d094e80784c4c8b712c7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Python<span></span></h3>
+              <p class="card-text">Proficient in Python, with a beginner-level expertise.</p>
+            </div>
+          </div>
         
           <div class="card" style="width: 18rem;">
-          <img src="https://proso.ai/wp-content/uploads/2022/06/ui-and-ux.jpg" class="card-img-top" alt="...">
+          <img src="https://mardoqueiro.github.io/all_images/images/download (2).jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>UI/<span>UX</span></h3>
             <p class="card-text">Skilled in UI/UX design principles, ensuring user-centric digital experiences.</p>
@@ -158,7 +152,7 @@
           </div>
         
           <div class="card" style="width: 18rem;">
-          <img src="https://www.researchgate.net/publication/354310848/figure/fig1/AS:1063445994680320@1630556691321/Agile-Methodology-in-System-Development-source-Okeke2021-retrieved-from.jpg" class="card-img-top" alt="...">
+          <img src="https://mardoqueiro.github.io/all_images/images/What is an Agile Team_ - Thrifty Admin.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>Agile <span>methodology</span></h3>
             <p class="card-text">Experienced in Agile methodology, fostering efficient and collaborative project management practices.</p>
@@ -166,7 +160,7 @@
           </div>
         
           <div class="card" style="width: 18rem;">
-          <img src="https://i.pinimg.com/736x/13/cb/ca/13cbcaf614764bc9c04bd75654b99637.jpg" class="card-img-top" alt="...">
+          <img src="https://mardoqueiro.github.io/all_images/images/Building a Unified Team - John Maxwell.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>Team <span>work</span></h3>
             <p class="card-text">Strong team player, adept at communication and collaboration to achieve common goals.</p>
@@ -175,128 +169,183 @@
         </div>
       </section>
 <!--    WORK SECTION -->
-      <section class="work-experience" id="work-experience">
-        <div class="work-experience-container">
-          <h1>Work<span>Exprience</span></h1>
-          <h3></h3>
-            <i class="bi bi-backpack3"></i>
-              <h3>The Homestead Head Office</h3>
-             <img src="" alt="High school">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque officiis sapiente odit libero consectetur, </p>
-              <a href="#" class="btn">Read More</a>
-            </div>
-          </div>
-        
-        </div>
-      </section>   
+<section class="education" id="eduction">
+  <h2 class="heading">Work<span>Experience</span></h2>
+
+  <div class="education-container">
+    <div class="education-box">
+      <i class="bi bi-backpack3"></i>
+      <h3>Simon's Town School</h3>
+     <img src="https:https://mardoqueiro.github.io/all_images/images/homesteadlogo-290x300.jpg" alt="High school">
+      <p>I attended Simon's Town School from grade 1 to grade 3, spanning the years 2012 to 2014. During this time, I was immersed in a supportive  learning environment, where I gained foundational knowledge and developed essential skills that laid the groundwork for my educational journey.  "</p>
+      <!-- <a href="#" class="btn">Read More</a> -->
+    </div>
+  </div>
+</section>
 <!--    PROJECT SECTION -->
-      <section class="project" id="project">
-      <h2 class="heading">Latest <span>Projects</span></h2>
-      <div class="project-container">
-        <div class="project-box">
-          <img src="" alt="">
-          <div class="project-layer">
-            <h4>KeyBoard</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio autem enim reprehenderit sed. Soluta minus voluptate dolorem obcaecati nostrum architecto vel dignissimos, exercitationem laborum magni voluptas quas, sequi amet.</p>
-            <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-        </div>
-  
-        <div class="project-box">
-          <img src="" alt="">
-          <div class="project-layer">
-            <h4>Calculator</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio autem enim reprehenderit sed. Soluta minus voluptate dolorem obcaecati nostrum architecto vel dignissimos, exercitationem laborum magni voluptas quas, sequi amet.</p>
-            <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-        </div>
-  
-        <div class="project-box">
-          <img src="" alt="">
-          <div class="project-layer">
-            <h4>KeyBoard</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio autem enim reprehenderit sed. Soluta minus voluptate dolorem obcaecati nostrum architecto vel dignissimos, exercitationem laborum magni voluptas quas, sequi amet.</p>
-            <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-        </div>
-  
-        <div class="project-box">
-          <img src="" alt="">
-          <div class="project-layer">
-            <h4>KeyBoard</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio autem enim reprehenderit sed. Soluta minus voluptate dolorem obcaecati nostrum architecto vel dignissimos, exercitationem laborum magni voluptas quas, sequi amet.</p>
-            <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-        </div>
-  
-        <div class="project-box">
-          <img src="" alt="">
-          <div class="project-layer">
-            <h4>KeyBoard</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio autem enim reprehenderit sed. Soluta minus voluptate dolorem obcaecati nostrum architecto vel dignissimos, exercitationem laborum magni voluptas quas, sequi amet.</p>
-            <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
+<section class="skills" id="skills">
+    <h3 class="heading">Latest<span>Project</span></h3>
+  <div class="skills-container">
+
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="d-flex justify-content-center">
+            <div class="card">
+                <img src="https://mardoqueiro.github.io/all_images/images/3D icon keyboard.jpg"
+                    class="card-img-top" alt="" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Keyboard</h5><!-- keyboard -->
+                    <p class="card-text">A keyboard made using HTML/CSS and animations.</p>
+                    <div class="d-flex justify-content-evenly">
+                        <a href="https://github.com/Mardoqueiro/keyboard.git" class="btn "
+                            target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://keyboard-topaz.vercel.app" class="btn "
+                            target="_blank"><i class="bi bi-triangle-fill"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-      </section>
+      </div>
+        <div class="col-md-4" data-aos="fade-right">
+        <div class="d-flex justify-content-center">
+            <div class="card">
+                <img src="https://mardoqueiro.github.io/all_images/images/Neumorphism Calculator Design.jpg"
+                    class="card-img-top" alt="picture" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Calculator</h5><!-- keyboard -->
+                    <p class="card-text">A Calculator made using HTML/CSS and animations.</p>
+                    <div class="d-flex justify-content-evenly">
+                      <a href="" class="btn "
+                      target="_blank"><i class="bi bi-github"></i></a>
+                  <a href="https://vercel.com/mardoqueiro-dimbus-projects/calculator2.0" class="btn "
+                      target="_blank"><i class="bi bi-triangle-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-right">
+      <div class="d-flex justify-content-center">
+          <div class="card">
+              <img src="https://mardoqueiro.github.io/all_images/images/Alamin on X.jpg"
+                  class="card-img-top" alt="picture" loading="lazy">
+              <div class="card-body">
+                  <h5 class="card-title">CSS Grid</h5><!-- keyboard -->
+                  <p class="card-text">A CSS and animations.</p>
+                  <div class="d-flex justify-content-evenly">
+                      <a href="https://github.com/Mardoqueiro/Css_Grid.git" class="btn "
+                          target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://css-grid-gilt.vercel.app" class="btn "
+                          target="_blank"><i class="bi bi-triangle-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-right">
+      <div class="d-flex justify-content-center">
+          <div class="card">
+              <img src="https://mardoqueiro.github.io/all_images/images/3D Flip Card Effect on Hover using only HTML & CSS.jpg"
+                  class="card-img-top" alt="picture" loading="lazy">
+              <div class="card-body">
+                  <h5 class="card-title">Flip Card</h5><!-- keyboard -->
+                  <p class="card-text">A Flip card using CSS and animations.</p>
+                  <div class="d-flex justify-content-evenly">
+                      <a href="https://github.com/Mardoqueiro/FlipCard.git" class="btn "
+                          target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://flip-card-bay.vercel.app" class="btn "
+                          target="_blank"><i class="bi bi-triangle-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-right">
+      <div class="d-flex justify-content-center">
+          <div class="card">
+              <img src="https://mardoqueiro.github.io/all_images/images/Personal website design.jpg"
+                  class="card-img-top" alt="picture" loading="lazy">
+              <div class="card-body">
+                  <h5 class="card-title">Web Porfolio</h5><!-- keyboard -->
+                  <p class="card-text">A Web Porfolio made using HTML/CSS and animations.</p>
+                  <div class="d-flex justify-content-evenly">
+                      <a href="https://github.com/Mardoqueiro/EndGame.git" class="btn "
+                          target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://end-game-kappa.vercel.app" class="btn "
+                          target="_blank"><i class="bi bi-triangle-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+    </div>   
+  </div>
+</section>
 <!--    TESTIMONIAL SECTION -->
       <section class="testimonials" id="testimonials">
         <h2 class="heading">Testimonial<span>s</span></h2>
         
-      <div class="testimonial-container">  
-        <div class="testimonial-box">
-          <div class="card" style="width: 18rem;">
-            <img src="https://mardoqueiro.github.io/all_images/images/Anushqa-image.jpg" class="card-img-top" alt="Anushqa">
-            <div class="card-body">
-              <p class="card-text">Mordecai is an extremely hardworking and dedicated individual who always strives to do the best he can in any task he is given. He communicates well with others and works excellent in a team  . He has a great sense of creativity and always goes the extra mile when necessary.  Mordecai adds great value to any organization and has proven it time and time again.</p>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://mardoqueiro.github.io/all_images/images/Anushqa-image.jpg" class="d-block w-100 m-auto" alt="picture" loading="lazy">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Anushqa <span>Kandan</span></h5>
+                <p>Mardoquéiro is an extremely hardworking and dedicated individual who always strives to do the best he can in any task he is given. He communicates well with others and works excellent in a team  . He has a great sense of creativity and always goes the extra mile when necessary.  Mordecai adds great value to any organization and has proven it time and time again.</p>
+              </div>
             </div>
-          </div> 
-        </div> 
-
-      <div class="testimonial-container">
-        <div class="testimonial-box">
-          <div class="card" style="width: 18rem;">
-            <img src="https://mardoqueiro.github.io/all_images/images/T02LW4RMXJQ-U06SKGACACT-3301ce51c7a1-192.jpg" class="card-img-top" alt="Nizaam">
-            <div class="card-body">
-              <p class="card-text">Mordecai is an amazing coder and a really cool person. He's super creative and makes coding look like art. Working with him is awesome because he's friendly and always ready to help out. Working with Mordecai is not just productive, it's also a whole lot of fun!</p>
+            <div class="carousel-item">
+              <img src="https://mardoqueiro.github.io/all_images/images/IMG-20240423-WA0031.jpg" class="d-block w-100" alt="picture" loading="lazy">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Nizaam <span>Jeftha</span></h5>
+                <p>Mardoquéiro is an amazing coder and a really cool person. He's super creative and makes coding look like art. Working with him is awesome because he's friendly and always ready to help out. Working with Mordecai is not just productive, it's also a whole lot of fun!</p>
+              </div>
             </div>
-          </div> 
-        </div> 
-
-        <div class="testimonial-box">
-          <div class="card" style="width: 18rem;">
-            <img src="https://mardoqueiro.github.io/all_images/images/20240422_094042.jpg" class="card-img-top" alt="Ismaaeel">
-            <div class="card-body">
-              <p class="card-text">A diligent worker that puts in the effort. He has a thirst for knowledge and self improvement.
-                Behaves in a very respectful manner and is easy to approach. He is wonderful to be around.</p>
+            <div class="carousel-item">
+              <img src="https://mardoqueiro.github.io/all_images/images/Amy-pic.jpg" class="d-block w-100" alt="picture" loading="lazy">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Amy <span>Johnson</span></h5>
+                <p>Mardoquéiro is extremely passionate about coding. He remains calm in stressful situations and evaluates multiple outcomes of a solution before making a final decision. He is precise and his solutions is practical and effective. He carries himself professionally and works well in a team. His explanations are clear with no ambiguity. Needless to say, Mordecai would be a great asset to your company.</p>
+              </div>
             </div>
-          </div> 
-        </div> 
-
-        <div class="testimonial-box">
-          <div class="card" style="width: 18rem;">
-            <img src="https://mardoqueiro.github.io/all_images/images/Amy-pic.jpg" class="card-img-top" alt="Amy">
-            <div class="card-body">
-              <p class="card-text">Mordecai is extremely passionate about coding. He remains calm in stressful situations and evaluates multiple outcomes of a solution before making a final decision. He is precise and his solutions is practical and effective. He carries himself professionally and works well in a team. His explanations are clear with no ambiguity. Needless to say, Mordecai would be a great asset to your company.</p>
+            <div class="carousel-item">
+              <img src="https://mardoqueiro.github.io/all_images/images/20240422_094042.jpg" class="d-block w-100" alt="picture" loading="lazy">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ismaaeel <span>Ahmed</span></h5>
+                <p>Mardoqueiro is a diligent worker that puts in the effort. He has a thirst for knowledge and self improvement.
+                  Behaves in a very respectful manner and is easy to approach. He is wonderful to be around.</p>
+              </div>
             </div>
-          </div> 
-        </div> 
-
-        <div class="testimonial-box">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="carousel-item">
+              <img src="https://mardoqueiro.github.io/all_images/images/Amy-pic.jpg" class="d-block w-100" alt="picture" loading="lazy">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mapule <span>Mbuzwana</span></h5>
+                <p>Mardoqueiro is an amazing and charismatic individual who brings positivity and enthusiasm to any team. He is known for his professionalism, willingness to assist others, and upbeat attitude, making him a pleasure to work with. Highly recommended for his exceptional qualities and dedication to teamwork.</p>
+              </div>
             </div>
-          </div> 
-        </div> 
-      </div>
-      </section>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 <!--    CONTACT SECTION  -->
       <section class="contact" id="Contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
   
-      <form action="#">
+      <form action="https://formspree.io/f/mvoeyzga" method="POST">
         <div class="input-box">
           <input type="text" placeholder="Full Name">
           <input type="text" placeholder="Last Name">
