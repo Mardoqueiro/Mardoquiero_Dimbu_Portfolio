@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mardoquéiro Dimbu Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-   <!-- <link rel="shortcut icon" href="https://mardoqueiro.github.io/all_images/images/images/blueSuit_sharpen.jpg" type="image/x-icon">-->
 </head>
-<body> 
-    <header class="header">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#">Work-Experience</a>
+          <a class="nav-link" href="#">Project</a>
+          <a class="nav-link" href="#">Testimonial</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <i class="bi bi-list" id="menu-icom"></i>
         <!-- <i class="bx bx-menu" id="menu-icom"></i> -->
-        <nav class="navbar">
+        <!--<nav class="navbar">
             <a href="#Home"style="--i.1;" class="active">Home</a>
             <a href="#About"style="--i.2;">About</a>
             <a href="#Education"style="--i.3;">Education</a>
@@ -24,9 +47,10 @@
             <a href="#Testimonial"style="--i.7;">Testimonials</a>
             <a href="#Contact"style="--i.8;">Contact</a>
         </nav>
-    </header>
+        <i class="bi bi-list" id="menu-icom"></i>
+    </header> -->
   
-    <section class="Home">
+      <section class="Home">
       <div class="home-content">
           <h3>Hello, It's Me</h3>
           <h1>Mardoquéiro D. Lukembeladio</h1>
@@ -44,11 +68,10 @@
       <div class="home-img">
           <img src="https://mardoqueiro.github.io/all_images/images/Portfolio.Website.Profile.jpg.png" alt="Profile">
       </div>
-    </section>
-  
-<!--ABOUT CONTENT-->
-  
-    <section class="About">
+      </section>
+    
+<!--   ABOUT CONTENT-->
+      <section class="About">
       <div class="about-content">
         <h2 class="heading">About <span>Me!</span></h2>
         <h3>Developer</h3>
@@ -60,12 +83,12 @@
         <!--<img src="https://mardoqueiro.github.io/all_images/Portfolio.Website.Profile.jpg.png" alt="">-->
         <img src="https://mardoqueiro.github.io/all_images/images/Portfolio.Website.Profile.jpg.png" class="rounded float-end" alt="Profile">
     </div>
-    </section>
-<!-- EDUCATION SECTION  -->
-    <section class="education" id="eduction">
+      </section>
+<!--    EDUCATION SECTION  -->
+      <section class="education" id="eduction">
       <h2 class="heading">My<span>Education</span></h2>
 
-      <div class="education-container">
+    <div class="education-container">
         <div class="education-box">
           <i class="bi bi-backpack3"></i>
           <h3>Simon's Town School</h3>
@@ -73,9 +96,10 @@
           <p>I attended Simon's Town School from grade 1 to grade 3, spanning the years 2012 to 2014. During this time, I was immersed in a supportive learning environment, where I gained foundational knowledge and developed essential skills that laid the groundwork for my educational journey."</p>
           <!-- <a href="#" class="btn">Read More</a> -->
         </div>
-      </div>
+    </div>
 
-      <div class="education-container">
+      
+    <div class="education-container">
         <div class="education-box">
           <i class="bi bi-backpack3"></i>
           <h3>Saint Agnes's Primary School</h3>
@@ -83,9 +107,9 @@
           <p>From 2014-2018, I attended Saint Agnes's Primary School, excelling academically and demonstrating strong leadership qualities. As the head boy, I actively contributed to the school community and continued to grow through extracurricular activities.</p>
           <!-- <a href="#" class="btn">Read More</a> -->
         </div>
-      </div>
+    </div>
       
-       <div class="education-container">
+      <div class="education-container">
           <div class="education-box">
             <i class="bi bi-backpack3"></i>
             <h3>Wynberg Boys' High School</h3>
@@ -93,66 +117,80 @@
             <p>In 2023, I graduated from Wynberg Boys' High School with a bachelor's degree. I actively participated in academic, sports, culture, and service pillars, particularly sports and culture, where I achieved Western Province colors, fostering personal growth and a well-rounded education.</p>
             <!-- <a href="#" class="btn">Read More</a> -->
           </div>
-        </div>
-    </section>
-    
-<!-- SKILL SECTION -->
-    <section class="skills" id="skills">
-      <div class="skills-container">
-        <h3 class="heading">Skill<span>s</span></h3>
-        
-        <div class="card" style="width: 18rem;">
-          <img src="https://static-00.iconduck.com/assets.00/html5-icon-505x512-zls0uohx.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3>HTML<span>5</span></h3>
-            <p class="card-text">Proficient in HTML5, with a beginner-level expertise.</p>
-          </div>
-        </div>
+      </div>
 
-        <div class="card" style="width: 18rem;">
+      <div class="education-container">
+        <div class="education-box">
+          <i class="bi bi-backpack3"></i>
+          <h3>Umsebenzi (Life Choices)</h3>
+         <img src="https://lifechoicesacademy.com/wp-content/uploads/2024/02/LIFE-CHOICES-ACADEMY-LOGO-W-1.png" alt="High school">
+          <p>In 2023, I graduated from Wynberg Boys' High School with a bachelor's degree. I actively participated in academic, sports, culture, and service pillars, particularly sports and culture, where I achieved Western Province colors, fostering personal growth and a well-rounded education.</p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </div>
+      </section>
+<!--    SKILL SECTION -->
+      <section class="skills" id="skills">
+          <h3 class="heading">Skill<span>s</span></h3>
+          <div class="skills-container">  
+          <div class="card" style="width: 18rem;">
+            <img src="https://static-00.iconduck.com/assets.00/html5-icon-505x512-zls0uohx.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>HTML<span>5</span></h3>
+              <p class="card-text">Proficient in HTML5, with a beginner-level expertise.</p>
+            </div>
+          </div>
+        
+          <div class="card" style="width: 18rem;">
           <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>CSS<span>3</span></h3>
             <p class="card-text">Proficient in CSS3, with a beginner-level expertise.</p>
           </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
+          </div>
+        
+          <div class="card" style="width: 18rem;">
           <img src="https://proso.ai/wp-content/uploads/2022/06/ui-and-ux.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>UI/<span>UX</span></h3>
             <p class="card-text">Skilled in UI/UX design principles, ensuring user-centric digital experiences.</p>
           </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
+          </div>
+        
+          <div class="card" style="width: 18rem;">
           <img src="https://www.researchgate.net/publication/354310848/figure/fig1/AS:1063445994680320@1630556691321/Agile-Methodology-in-System-Development-source-Okeke2021-retrieved-from.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>Agile <span>methodology</span></h3>
             <p class="card-text">Experienced in Agile methodology, fostering efficient and collaborative project management practices.</p>
           </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
+          </div>
+        
+          <div class="card" style="width: 18rem;">
           <img src="https://i.pinimg.com/736x/13/cb/ca/13cbcaf614764bc9c04bd75654b99637.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3>Team <span>work</span></h3>
             <p class="card-text">Strong team player, adept at communication and collaboration to achieve common goals.</p>
           </div>
+          </div>
         </div>
-      </div>
-    </section>
-  
-<!-- WORK SECTION -->
-    <section class="work-experience" id="work-experience">
-      <div class="work-experience-container">
-        <h1>Work<span>Exprience</span></h1>
-        <h3></h3>
-      </div>
-    </section>
-      
-<!-- PROJECT SECTION -->
-    <section class="project" id="project">
+      </section>
+<!--    WORK SECTION -->
+      <section class="work-experience" id="work-experience">
+        <div class="work-experience-container">
+          <h1>Work<span>Exprience</span></h1>
+          <h3></h3>
+            <i class="bi bi-backpack3"></i>
+              <h3>The Homestead Head Office</h3>
+             <img src="" alt="High school">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque officiis sapiente odit libero consectetur, </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        
+        </div>
+      </section>   
+<!--    PROJECT SECTION -->
+      <section class="project" id="project">
       <h2 class="heading">Latest <span>Projects</span></h2>
       <div class="project-container">
         <div class="project-box">
@@ -200,12 +238,12 @@
           </div>
         </div>
       </div>
-    </section>
-<!-- TESTIMONIAL SECTION -->
-    <section class="testimonials" id="testimonials">
-      <div class="testimonial-container">
+      </section>
+<!--    TESTIMONIAL SECTION -->
+      <section class="testimonials" id="testimonials">
         <h2 class="heading">Testimonial<span>s</span></h2>
         
+      <div class="testimonial-container">  
         <div class="testimonial-box">
           <div class="card" style="width: 18rem;">
             <img src="https://mardoqueiro.github.io/all_images/images/Anushqa-image.jpg" class="card-img-top" alt="Anushqa">
@@ -215,9 +253,10 @@
           </div> 
         </div> 
 
+      <div class="testimonial-container">
         <div class="testimonial-box">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="Nizaam">
+            <img src="https://mardoqueiro.github.io/all_images/images/T02LW4RMXJQ-U06SKGACACT-3301ce51c7a1-192.jpg" class="card-img-top" alt="Nizaam">
             <div class="card-body">
               <p class="card-text">Mordecai is an amazing coder and a really cool person. He's super creative and makes coding look like art. Working with him is awesome because he's friendly and always ready to help out. Working with Mordecai is not just productive, it's also a whole lot of fun!</p>
             </div>
@@ -226,7 +265,7 @@
 
         <div class="testimonial-box">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="Ismaaeel">
+            <img src="https://mardoqueiro.github.io/all_images/images/20240422_094042.jpg" class="card-img-top" alt="Ismaaeel">
             <div class="card-body">
               <p class="card-text">A diligent worker that puts in the effort. He has a thirst for knowledge and self improvement.
                 Behaves in a very respectful manner and is easy to approach. He is wonderful to be around.</p>
@@ -236,9 +275,9 @@
 
         <div class="testimonial-box">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://mardoqueiro.github.io/all_images/images/Amy-pic.jpg" class="card-img-top" alt="Amy">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Mordecai is extremely passionate about coding. He remains calm in stressful situations and evaluates multiple outcomes of a solution before making a final decision. He is precise and his solutions is practical and effective. He carries himself professionally and works well in a team. His explanations are clear with no ambiguity. Needless to say, Mordecai would be a great asset to your company.</p>
             </div>
           </div> 
         </div> 
@@ -252,9 +291,9 @@
           </div> 
         </div> 
       </div>
-    </section>
-<!-- CONTACT SECTION  -->
-    <section class="contact" id="Contact">
+      </section>
+<!--    CONTACT SECTION  -->
+      <section class="contact" id="Contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
   
       <form action="#">
@@ -271,15 +310,15 @@
         <input type="submit" placeholder="Send Message" class="btn">
       </form>
   
-    </section>
-<!-- FOOTER SECTION  -->
-    <footer class="footer">
+      </section>
+<!--    FOOTER SECTION  -->
+      <footer class="footer">
       <div class="footer-text">
         <p>Copyright &copy; 2024 Mardoquéiro | All Rights Reserved.</p>
       </div>
   
-    </footer>
-    <!-- <footer class="container-fluid">
+      </footer>
+      <!-- <footer class="container-fluid">
         <div class="row">
             <p class="lead text-white">
                 <span>Mardoqueiro's Portfolio</span>
@@ -287,7 +326,7 @@
             </p>
         </div>
     </footer> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous">
-    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.  js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous">
+      </script>
 </body>
 </html>

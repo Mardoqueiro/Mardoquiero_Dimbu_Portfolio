@@ -44,9 +44,10 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
+} */
 
-.logo {
+/* .logo 
+.navbar-brand{
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
@@ -54,15 +55,15 @@ section {
 }
 
 /*NavBar Section*/
-.navbar a {
+/* .navbar-expand-lg a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: center; */
-}
+    display: flex;
+    justify-content: flex-start;
+    align-items: row;
+} 
 
 .navbar a:hover,
 .navbar a.active {
@@ -73,7 +74,7 @@ section {
     font-size: 5rem;
     color: var(--text-color);
     display: none;
-}
+} */ */
 
 /*Home Section*/
 .home {
@@ -354,13 +355,13 @@ EEDUCTION CSS SECT
 
 SKILLS CSS SECT
 .skills h3 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .skills-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -508,7 +509,7 @@ CONTACT CSS SECT
     background: var(--second-bg-color);
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
@@ -639,7 +640,7 @@ CONTACT CSS SECT
         text-align: center;
         margin-top: 2rem;
     }
-}
+} */
 
 .testimonials h2 {
     margin-bottom: 5rem;
@@ -668,23 +669,23 @@ CONTACT CSS SECT
     transform: scale(1.02);
 }
 
-.testimonial-box i {
+/* .testimonial-box i {
     font-size: 2.5rem;
     color: var(--main-color);
-}
+} */
 
-.testimonial-box img {
+/* .testimonial-box img {
     width: 250px;
     height: 150px;
-}
-.testimonial-box h3 {
+} */
+/* .testimonial-box h3 {
     font-size: 2.6rem;
-}
+} */
 
-.testimonial-box p {
+/* .testimonial-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
-}
+} */
 
 
 Card Blur Animation SECT 
